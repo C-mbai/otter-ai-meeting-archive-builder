@@ -1,0 +1,35 @@
+# User data (don't commit personal meeting data)
+Otter Main Page/
+Otter Meeting Notes*/
+Meetings Web Data/
+meetings.html
+meetings_data.json
+match_report.csv
+test result/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Old instruction files (keep concise version)
+BUILD_INSTRUCTIONS.md
+COMPLETE_BUILD_PROMPT.md
+INSTRUCTIONS_TO_BUILD_OTTER_ARCHIVE.md
