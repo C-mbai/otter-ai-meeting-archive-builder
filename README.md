@@ -31,10 +31,18 @@ Build a beautiful, searchable web archive of your Otter.ai meetings from backup 
 
 ## Repository Contents
 
+### Otter.ai Archive Builder
 - **`INSTRUCTIONS_CONCISE.md`** - Complete build instructions (share with AI or use as reference)
 - **`extract_meetings.py`** - Extracts meeting metadata from HTML and matches with audio/transcript files
 - **`generate_html.py`** - Generates the web archive HTML pages
 - **`styles.css`** - Modern, responsive styling with dark mode support
+
+### Loom Video Downloader
+- **`loom-downloader/`** - Tool to download all your Loom videos locally
+  - See [`loom-downloader/README.md`](loom-downloader/README.md) for full instructions
+  - Downloads videos with metadata, thumbnails, and subtitles
+  - Uses browser cookies for authentication
+  - Privacy-first: all downloads run locally
 
 ## Example Output
 
