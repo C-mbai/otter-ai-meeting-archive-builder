@@ -20,7 +20,7 @@ from dotenv import load_dotenv
 class FathomDownloader:
     """Downloads videos and metadata from Fathom.video using their API."""
 
-    API_BASE = "https://api.fathom.video/api/v1"
+    API_BASE = "https://api.fathom.ai/external/v1"
 
     def __init__(self, api_key, output_dir='downloads'):
         self.api_key = api_key
