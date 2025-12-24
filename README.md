@@ -44,6 +44,14 @@ Build a beautiful, searchable web archive of your Otter.ai meetings from backup 
   - Uses browser cookies for authentication
   - Privacy-first: all downloads run locally
 
+### Fathom Video Downloader
+- **`fathom-downloader/`** - Tool to download all your Fathom.video recordings via API
+  - See [`fathom-downloader/README.md`](fathom-downloader/README.md) for full instructions
+  - Fully automated using Fathom API
+  - Downloads videos, transcripts, summaries, and action items
+  - Requires Fathom API key
+  - Privacy-first: all downloads run locally
+
 ## Example Output
 
 The generated archive includes:
